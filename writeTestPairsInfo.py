@@ -475,7 +475,7 @@ if __name__ == '__main__':
                 fileTestInfo1.write('<h3>' + PairsNum  + '</h3>' + '\n')
                 fileTestInfo1.write('<tr>' + '\n')
                 fileTestInfo1.write('<td>' + '\n')
-                fileTestInfo1.write(testPath + '\n')
+                fileTestInfo1.write(editPath + '\n')
                 fileTestInfo1.write("<pre>" + '\n')
 
                 for x in range(int(n[:n.find((':'))])-1,int(n[n.find(':')+1:])):
@@ -509,7 +509,7 @@ if __name__ == '__main__':
                 fileTestInfo2.write('<h3>' + PairsNum  + '</h3>' + '\n')
                 fileTestInfo2.write('<tr>' + '\n')
                 fileTestInfo2.write('<td>' + '\n')
-                fileTestInfo2.write(testPath + '\n')
+                fileTestInfo2.write(editPath + '\n')
                 fileTestInfo2.write("<pre>" + '\n')
 
                 for x in range(int(n[:n.find((':'))])-1,int(n[n.find(':')+1:])):
